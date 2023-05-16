@@ -63,11 +63,11 @@ class Splash1 extends StatelessWidget {
                 children: [
                   Container(
                     width: double.infinity,
-                    child: RaisedButton(
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20),
-                        ),
-                        color: Colors.black54,
+                    child: ElevatedButton(
+                        // shape: RoundedRectangleBorder(
+                        //   borderRadius: BorderRadius.circular(20),
+                        // ),
+                        // color: Colors.black54,
                         child: Text(
                           'Get Started',
                           style: TextStyle(color: Colors.white),
@@ -79,7 +79,7 @@ class Splash1 extends StatelessWidget {
                                   builder: (context) => Register()));
                         }),
                   ),
-                  FlatButton(
+                 TextButton(
                       onPressed: () {
                        
                       },

@@ -88,7 +88,7 @@ class ForgotPassword extends StatelessWidget {
                       final snackBar = SnackBar(
                         content: Text('Kindly Check Your Email'),
                       );
-                      Scaffold.of(context).showSnackBar(snackBar);
+                      // Scaffold.of(context).showSnackBar(snackBar);
                     },
                     child: Text(
                       'Submit',
@@ -100,9 +100,9 @@ class ForgotPassword extends StatelessWidget {
                   ),
                 ),
               ),
-              FlatButton(
-                splashColor: Colors.black,
-                hoverColor: Colors.black,
+              TextButton(
+                // splashColor: Colors.black,
+                // hoverColor: Colors.black,
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Home()));

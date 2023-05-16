@@ -158,10 +158,8 @@ class LoginPage extends GetView<LoginController> {
                           height: 50,
                           width: width - 30,
                           padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
-                          child: RaisedButton(
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(18),
-                            ),
+                          child: ElevatedButton(
+                           
                             onPressed: () {
                               controller.checklogin();
                               print(controller.email);
@@ -183,8 +181,7 @@ class LoginPage extends GetView<LoginController> {
                                   fontSize: 20,
                                   fontWeight: FontWeight.w500),
                             ),
-                            color: Colors.black.withOpacity(0.7),
-                            splashColor: Colors.blue[900],
+                          
                           ),
                         ),
                         SizedBox(
@@ -192,9 +189,9 @@ class LoginPage extends GetView<LoginController> {
                         ),
                       ],
                     ),
-                    FlatButton(
-                      splashColor: Colors.black,
-                      hoverColor: Colors.black,
+                    
+                   TextButton(
+                      
                       onPressed: () {
                         Navigator.push(
                             context,
@@ -208,11 +205,8 @@ class LoginPage extends GetView<LoginController> {
                       children: [
                         Container(
                           height: 50,
-                          child: RaisedButton(
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(18),
-                            ),
-                            color: Colors.black,
+                          child: ElevatedButton(
+                           
                             child: Row(
                               mainAxisAlignment:
                                   MainAxisAlignment.spaceBetween,
@@ -242,7 +236,7 @@ class LoginPage extends GetView<LoginController> {
                     )
                   ],
                 ),
-                FlatButton(
+                TextButton(
                     onPressed: () {
                       Navigator.push(
                           context,

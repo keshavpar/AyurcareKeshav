@@ -114,9 +114,8 @@ class _RegisterState extends State<Register> {
               Container(
                 width: double.infinity,
                 padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
-                child: RaisedButton(
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20)),
+                child: ElevatedButton(
+                  
                   onPressed: () async {
                     var em = isEmail(email.text);
                     if (em == true) {
@@ -132,7 +131,7 @@ class _RegisterState extends State<Register> {
                       AlertDialog alert = AlertDialog(
                         title: Text('Verify Your Email Address '),
                         actions: [
-                          RaisedButton(
+                          ElevatedButton(
                               child: Text('Ok'),
                               onPressed: () => Navigator.push(
                                   context,
@@ -165,12 +164,12 @@ class _RegisterState extends State<Register> {
                       }
                     }
                   },
-                  color: Colors.black,
+                 
                   child: Text(
                     'Register',
                     style: TextStyle(color: Colors.white, fontSize: 15),
                   ),
-                  hoverColor: Colors.black,
+                 
                 ),
               ),
               SizedBox(
@@ -184,10 +183,8 @@ class _RegisterState extends State<Register> {
                 padding: const EdgeInsets.only(left: 20, right: 20, bottom: 0),
                 child: Column(
                   children: [
-                    RaisedButton(
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      color: Colors.black,
+                    ElevatedButton(
+                    
                       onPressed: () {},
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -203,10 +200,8 @@ class _RegisterState extends State<Register> {
                         ],
                       ),
                     ),
-                    RaisedButton(
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      color: Colors.black,
+                    ElevatedButton(
+                      
                       onPressed: () {},
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,

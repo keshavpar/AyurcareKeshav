@@ -119,9 +119,9 @@ class NewPatientState extends State<NewPatient> {
         print("picture uploaded");
         print(name.text);
         flag = 1;
-        Scaffold.of(context).showSnackBar(SnackBar(
-          content: Text('Details Uploaded'),
-        ));
+        // Scaffold.of(context).showSnackBar(SnackBar(
+        //   content: Text('Details Uploaded'),
+        // ));
       });
     }
 

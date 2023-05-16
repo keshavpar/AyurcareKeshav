@@ -62,11 +62,11 @@ class _HomeState extends State<Home> {
         builder: (context) => AlertDialog(
           title: Text('Do you really want to exit'),
           actions: <Widget>[
-            FlatButton(
+            TextButton(
               onPressed: () => Navigator.pop(context, false),
               child: Text('No'),
             ),
-            FlatButton(
+            TextButton(
                 child: Text('Yes'),
                 onPressed: () {
                   controller.signOut();
