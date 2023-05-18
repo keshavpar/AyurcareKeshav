@@ -29,11 +29,11 @@ class MyApp extends StatelessWidget {
       title: 'Ayurcare',
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
-      theme: ThemeData(
-        appBarTheme: AppBarTheme(color: Colors.blue[800]),
+      // theme: ThemeData(
+      //   appBarTheme: AppBarTheme(color: Colors.blue[800]),
 
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
+      //   visualDensity: VisualDensity.adaptivePlatformDensity,
+      // ),
     );
   }
 }

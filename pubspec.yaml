@@ -30,11 +30,13 @@ dependencies:
   firebase_storage: 
   flutter_svg: 
   font_awesome_flutter: 
-  get: null
+  get: 
   google_sign_in:
   image_picker: 
+  
 
   string_validator: 
+  intl: ^0.18.1
 
 dev_dependencies:
   flutter_test:

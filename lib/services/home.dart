@@ -132,17 +132,12 @@ class _HomeState extends State<Home> {
               ),
               backgroundColor: Colors.blue[200],
             ),
-            body: Theme(
-              data: ThemeData(
-                  appBarTheme: AppBarTheme(color: Colors.blue[400]),
-                  canvasColor: Colors.white),
-              child: TabBarView(
-                children: <Widget>[
-                  NewPatient(),
-                  Listf(uid = uid),
-                  Inventory(),
-                ],
-              ),
+            body: TabBarView(
+              children: <Widget>[
+                NewPatient(),
+                Listf(uid = uid),
+                Inventory(),
+              ],
             ),
           ),
         ),
