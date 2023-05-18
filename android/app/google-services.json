@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "446151805368",
-    "project_id": "collegeayurcare",
-    "storage_bucket": "collegeayurcare.appspot.com"
+    "project_number": "641266297770",
+    "project_id": "ayubloc",
+    "storage_bucket": "ayubloc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:446151805368:android:a31e1a3c6f006c6cca274d",
+        "mobilesdk_app_id": "1:641266297770:android:95a019f8a88cfcca5cd9d3",
         "android_client_info": {
-          "package_name": "com.example.ayurcare"
+          "package_name": "com.example.ayurcareBloc"
         }
       },
       "oauth_client": [
         {
-          "client_id": "446151805368-mldmj9ldk4oiu1anat0i5iu0o98bsbh6.apps.googleusercontent.com",
+          "client_id": "641266297770-m2aisko5asvp3s8g37hl4pa1edrog9gp.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.ayurcare",
+            "package_name": "com.example.ayurcareBloc",
             "certificate_hash": "fb3ef5bec10ac32bd0a45a9095d4fec7a9b4a8af"
           }
         },
         {
-          "client_id": "446151805368-2i11ecr8r7mv9ac5cabut37hg6cn72t5.apps.googleusercontent.com",
+          "client_id": "641266297770-5b3cui3a85svd3vad0ur9usi57ua1art.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDiQ4WPzofx6DG39vlS-R1LdKIl2sRipWA"
+          "current_key": "AIzaSyBRZgLb8TVNuY8AINKg3i6dmMsHI2vmQiI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "446151805368-2i11ecr8r7mv9ac5cabut37hg6cn72t5.apps.googleusercontent.com",
+              "client_id": "641266297770-5b3cui3a85svd3vad0ur9usi57ua1art.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
