@@ -67,7 +67,7 @@ class Splash1 extends StatelessWidget {
                         // shape: RoundedRectangleBorder(
                         //   borderRadius: BorderRadius.circular(20),
                         // ),
-                        // color: Colors.black54,
+                        // color: Colors.black54,6
                         child: Text(
                           'Get Started',
                           style: TextStyle(color: Colors.white),

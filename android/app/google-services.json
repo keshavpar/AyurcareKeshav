@@ -1,42 +1,41 @@
 {
   "project_info": {
-    "project_number": "511443523836",
-    "firebase_url": "https://ayurcar-323a7.firebaseio.com",
-    "project_id": "ayurcar-323a7",
-    "storage_bucket": "ayurcar-323a7.appspot.com"
+    "project_number": "446151805368",
+    "project_id": "collegeayurcare",
+    "storage_bucket": "collegeayurcare.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:511443523836:android:c9a7afb76740ea86ce9f79",
+        "mobilesdk_app_id": "1:446151805368:android:a31e1a3c6f006c6cca274d",
         "android_client_info": {
-          "package_name": "com.Keshav.Ayurcar"
+          "package_name": "com.example.ayurcare"
         }
       },
       "oauth_client": [
         {
-          "client_id": "511443523836-jqiirnjsqluhitmbvkbs6i2iop23lsgr.apps.googleusercontent.com",
+          "client_id": "446151805368-mldmj9ldk4oiu1anat0i5iu0o98bsbh6.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.Keshav.Ayurcar",
-            "certificate_hash": "00a5ea577b139e26f77d318009bac2b38917b2ee"
+            "package_name": "com.example.ayurcare",
+            "certificate_hash": "fb3ef5bec10ac32bd0a45a9095d4fec7a9b4a8af"
           }
         },
         {
-          "client_id": "511443523836-48nsmskfm9mo88m1je7cv4k1dklm4l6q.apps.googleusercontent.com",
+          "client_id": "446151805368-2i11ecr8r7mv9ac5cabut37hg6cn72t5.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB3fW5jow7_Q1GMNsyjjjdf6fyVWSBAyro"
+          "current_key": "AIzaSyDiQ4WPzofx6DG39vlS-R1LdKIl2sRipWA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "511443523836-48nsmskfm9mo88m1je7cv4k1dklm4l6q.apps.googleusercontent.com",
+              "client_id": "446151805368-2i11ecr8r7mv9ac5cabut37hg6cn72t5.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
